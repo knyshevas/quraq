@@ -1,0 +1,25 @@
+{
+  "id": "level01",
+  "name": "The quilt",
+  "grid": [12, 12],
+  "origin": "bottom-left",
+  "start": [0, 0],
+  "goal": [11, 11],
+  "pieces": [
+    { "id": "H", "fabric": "sage_crosshatch",      "color": "#819d83", "rect": [5, 1, 2, 1],  "z": 0, "note": "fully hidden under B; for lift-corner later" },
+    { "id": "A", "fabric": "madder_red_floral",    "color": "#862522", "rect": [0, 0, 4, 3],  "z": 1, "note": "start piece" },
+    { "id": "B", "fabric": "indigo_dot",           "color": "#55647b", "rect": [4, 0, 4, 3],  "z": 1 },
+    { "id": "C", "fabric": "ochre_damask",         "color": "#d69e6f", "rect": [8, 0, 4, 3],  "z": 1 },
+    { "id": "S", "fabric": "undyed_crackle",       "color": "#a08b7d", "rect": [0, 3, 12, 1], "z": 2, "note": "thin strip, the only way north" },
+    { "id": "D", "fabric": "felt_green_velvet",    "color": "#72aea0", "rect": [0, 4, 3, 4],  "z": 1 },
+    { "id": "E", "fabric": "indigo_dot",           "color": "#55647b", "rect": [3, 4, 5, 3],  "z": 1 },
+    { "id": "F", "fabric": "sage_crosshatch",      "color": "#819d83", "rect": [8, 4, 4, 4],  "z": 1 },
+    { "id": "P", "fabric": "arabesque_black",      "color": "#493027", "rect": [2, 5, 3, 2],  "z": 3, "note": "patch overlapping D and E" },
+    { "id": "I", "fabric": "indigo_dot",           "color": "#55647b", "rect": [0, 8, 3, 4],  "z": 1 },
+    { "id": "J", "fabric": "madder_red_floral",    "color": "#862522", "rect": [3, 7, 5, 3],  "z": 1 },
+    { "id": "K", "fabric": "ochre_damask",         "color": "#d69e6f", "rect": [3, 10, 5, 2], "z": 1 },
+    { "id": "L", "fabric": "undyed_crackle",       "color": "#a08b7d", "rect": [8, 8, 4, 4],  "z": 1, "note": "L-shaped once G sits on it" },
+    { "id": "G", "fabric": "saffron_orange_solid", "color": "#f4b16a", "rect": [9, 10, 3, 2], "z": 2, "note": "goal piece" }
+  ],
+  "frame": { "fabric": "felt_green_velvet", "color": "#2f6457", "enter": "free", "exit": "free" }
+}
